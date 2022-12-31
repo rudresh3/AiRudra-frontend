@@ -8,7 +8,7 @@ function Heropage() {
 
   const handleSubmit = (e) =>{
     e.preventDefault();
-    fetch ('https://ai-rudra-backend.vercel.app/', {
+    fetch ('http://localhost:3232/', {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
