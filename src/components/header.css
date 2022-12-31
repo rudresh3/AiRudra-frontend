@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+
+.header-inner{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header-inner h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.header-inner span{
+    color: rgb(134, 46, 175);
+}
+
+@media only screen and (max-width: 600px) {
+    .header-inner{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header{
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        width: 100%;
+        padding: 0 30px;
+        display: flex;  
+    }
+  }

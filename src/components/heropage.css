@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.main-container{
+   width: 100%;
+   height: 90vh;   
+}
+.home-holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 14rem;
+    
+}
+
+.home-left{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 500px;
+    padding: 30px 50px;
+    border-radius: .5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.home-left p{
+    font-size: 34px;
+    font-weight: 500;
+    
+}
+
+.home-left form textarea{
+    font-size: 1.5rem;
+    padding: 30px 0;
+    width: 100%;
+    height: 200px;
+
+    border-radius: .5rem;
+    text-align: center;
+    resize: none;
+    outline: none;
+    resize: none;
+}
+.home-left form {
+    padding: 30px 0;
+}
+
+.form-btn{
+padding: 15px 0;
+}
+
+.form-btn button {
+    
+    padding: 10px 40px;
+    border: none;
+    border-radius: .3rem;
+    background-color: rgb(134, 46, 175);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.home-right{
+    border-radius: .5rem;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+  
+    height: auto;
+    padding: 50px 50px;
+    font-size: 1.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.home-right p{
+    padding: 16px 0;
+  
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 100% }
+    to { width: 100% }
+  }
+
+  .rotate{
+    background-color: red;
+    transform: rotate();
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        overflow: visible;
+    }
+
+    .home-holder{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        gap: 2rem;
+        
+    }
+
+    .home-left{
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+        height: 200px;
+        padding: 15px 30px;
+        border-radius: .5rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .home-left p{
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .home-left form textarea{
+        font-size: 1.5rem;
+        padding: 32px 0;
+        width: 100%;
+        height: 20px;
+        border-radius: .5rem;
+        text-align: center;
+        resize: none;
+        outline: none;
+        resize: horizontal;
+    }
+
+    .home-left form {
+        padding: 10px 0;
+    }
+    
+    .form-btn{
+    padding: 10px 0;
+    }
+
+    .home-right{
+        border-radius: .5rem;
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+      
+        height: 50vh;
+        padding: 50px 50px;
+        font-size: 1.5rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .form-btn button {
+    
+        padding: 6px 24px;
+        border: none;
+        border-radius: .3rem;
+        background-color: rgb(134, 46, 175);
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+  }
